@@ -1,7 +1,7 @@
 /*
  * @Author: machao
  * @Date: 2020-08-14 14:14:29
- * @LastEditTime: 2020-08-14 15:57:51
+ * @LastEditTime: 2020-10-30 14:35:43
  * @Description:
  * @Copyright raycloud
  */
@@ -117,7 +117,8 @@ function customQuickSort(arr, low, high) {
 }
 
 function customQuickSortTest() {
-  const arr = [6, 1, 2, 7, 9, 11, 4, 5, 10, 8];
+  // const arr = [6, 1, 2, 7, 9, 11, 4, 5, 10, 8];
+  const arr = [3, 2, 1];
   customQuickSort(arr, 0, arr.length - 1);
   console.log(arr);
 }
